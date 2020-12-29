@@ -4,7 +4,7 @@ favicon: images/favicon.png
 base_url: https://revathy-suryanarayana.github.io/
 description: |
   Revathy Suryanarayana
-output_dir: "_site"
+output_dir: "."
 navbar:
   left:
     - text: "Research"
