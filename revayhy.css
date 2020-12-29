@@ -31,7 +31,6 @@ html {
   --mono-font:       monospace;
   --body-font:       sans-serif;
   --navbar-font:     sans-serif;  /* websites + blogs only */
-  --title-font:      garamond;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -90,5 +89,4 @@ ul > li::marker {
 
 h1 {
   text-align: center;
-  font:  garamond;
 }
