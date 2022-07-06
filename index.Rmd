@@ -4,8 +4,11 @@ site: distill::distill_website
 ---
 
 <center>
-<img src="images/revathy.jpg" style="width:40%;" >
+<img src="images/revathy_headshot.jpg" style="width:40%;" >
 </center>
 <p>&nbsp;</p>  
 
-I am a third-year Ph.D. student at the [Department of Policy Analysis and Management](https://www.human.cornell.edu/pam){target="_blank"}, [Cornell University](https://www.cornell.edu/){target="_blank"}. I work on topics in health and public economics including crime and economics of risky health behavior. 
+
+I am a rising fifth-year PhD candidate in the [Department of Policy Analysis and Management](https://www.human.cornell.edu/pam){target="_blank"} at [Cornell University](https://www.cornell.edu/){target="_blank"}. My research primarily focuses on health and labor
+economics. Specifically, I study how federal income support affects long-run crime and risky
+behaviors. I also work on research projects involving tobacco policies across India and Japan.
