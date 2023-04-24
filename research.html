@@ -88,21 +88,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Revathy Suryanarayana: Research</title>
+  <title>Home: Research</title>
 
 
   <link rel="icon" type="image/png" href="images/favicon.png"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Revathy Suryanarayana: Research"/>
+  <meta property="og:title" content="Home: Research"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Revathy Suryanarayana"/>
+  <meta property="og:site_name" content="Home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Revathy Suryanarayana: Research"/>
+  <meta property="twitter:title" content="Home: Research"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -786,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1858,15 +1859,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2410,7 +2417,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2445,9 +2452,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Revathy Suryanarayana</a>
-<a href="research.html">Research</a>
-<a href="files/CV.pdf">CV</a>
+<a href="index.html" class="title">Home</a>
+<a href="files/revathycv_april2023.pdf">CV</a>
 </div>
 <div class="nav-right">
 <a href="mailto:rs2452@cornell.edu">
@@ -2474,104 +2480,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h1 id="working-papers">Working Papers</h1>
-<h2
-id="alcohol-ban-and-crime-the-abcs-of-the-bihar-prohibition.">Alcohol
-Ban and Crime: The ABC’s of the Bihar Prohibition.</h2>
-<p>With <a href="https://economics.ucdavis.edu/people/kalyanic"
-target="_blank">Kalyani Chaudhuri</a>, <a
-href="https://tci.cornell.edu/people/natasha-jha/"
-target="_blank">Natasha Jha</a> and <a
-href="https://economics.virginia.edu/people/profile/mn4yk"
-target="_blank">Mrithyunjayan Nilayamgode</a></p>
-<p><strong><em>Abstract</em></strong>: We study the relationship between
-alcohol consumption and crime using the implementation of a statewide
-total prohibition of alcohol in the Indian state of Bihar in 2016.
-Testing the theoretical argument that alcohol has differential effects
-on different kinds of crime, we use a difference-in-differences approach
-and find that the prohibition led to a 0.22 standard deviation reduction
-in the reported incidence of violent crimes, but had no significant
-impact on non-violent crimes. This effect is fairly persistent over
-time, lasting at least three years into the ban, indicating that it is a
-reliable medium-term strategy to control crime. Heterogeneity tests also
-reveal that the effect on crime is stronger in interior districts and
-districts with higher baseline alcohol consumption. We also observe
-stronger effects in districts where a smaller proportion of the
-population faces religious restrictions on alcohol consumption. Since
-all of these subgroups indicate districts where the ban is likely to
-have had a larger effect on alcohol availability and consumption, we
-conclude that the ban affects crime through this channel rather than
-that of institutional changes.</p>
-<h2
-id="the-long-run-impact-of-family-income-on-crime-and-risky-behavior.">The
-Long-Run Impact of Family Income on Crime and Risky Behavior.</h2>
-<p><strong><em>Abstract</em></strong>: Household income is a key
-variable in predicting participation in criminal and risk-taking
-behaviors. How does an income increase affect these behavioral outcomes?
-I study this question within the context of the Earned Income Tax credit
-- an anti-poverty tax credit program in the US that resulted in a
-substantial transfer of income to low- and moderate-income working
-families. I use tax credit variations arising out of federal and state
-EITC policies to study the impact of total EITC exposure during
-childhood on adult outcomes. Using a reduced form instrumental variable
-strategy, I estimate that a $1000 increase in EITC exposure between the
-ages of 0 and 18 leads to a 5.58 percent decrease in the probability of
-engaging in criminal behaviors during adulthood. I also find that it
-significantly reduces the probability of participating in risky
-behaviors including binge drinking and heavy smoking. I investigate the
-role of education and non-cognitive skills as potential mediators.</p>
-<h2 id="gender-differences-in-tertiary-healthcare.">Gender differences
-in tertiary healthcare.</h2>
-<p>With <a
-href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0"
-target="_blank">Tarun Jain</a> and <a
-href="https://tci.cornell.edu/people/natasha-jha/"
-target="_blank">Natasha Jha</a></p>
-<p><strong><em>Abstract</em></strong>: We examine gender differences in
-access to and service within a publicly financed tertiary healthcare
-program in Andhra Pradesh India. We use claim-level administrative data
-from the program to estimate gender differences in access and services.
-We classify the distance the patient travels as access variables and the
-time for claim authorization, treatment, and discharge, as well as the
-amount approved and paid as service variables. We use a regression
-framework to control for the influence of other patient characteristics,
-the type of procedure, hospital, and quarter of treatment in making
-gender comparisons.</p>
+<h2 id="alcohol-ban-and-crime-the-abcs-of-the-bihar-prohibition.">Alcohol Ban and Crime: The ABC’s of the Bihar Prohibition.</h2>
+<p>With <a href="https://economics.ucdavis.edu/people/kalyanic" target="_blank">Kalyani Chaudhuri</a>, <a href="https://tci.cornell.edu/people/natasha-jha/" target="_blank">Natasha Jha</a> and <a href="https://economics.virginia.edu/people/profile/mn4yk" target="_blank">Mrithyunjayan Nilayamgode</a></p>
+<p><strong><em>Abstract</em></strong>: We study the relationship between alcohol consumption and crime using the implementation of a statewide total prohibition of alcohol in the Indian state of Bihar in 2016. Testing the theoretical argument that alcohol has differential effects on different kinds of crime, we use a difference-in-differences approach and find that the prohibition led to a 0.22 standard deviation reduction in the reported incidence of violent crimes, but had no significant impact on non-violent crimes. This effect is fairly persistent over time, lasting at least three years into the ban, indicating that it is a reliable medium-term strategy to control crime. Heterogeneity tests also reveal that the effect on crime is stronger in interior districts and districts with higher baseline alcohol consumption. We also observe stronger effects in districts where a smaller proportion of the population faces religious restrictions on alcohol consumption. Since all of these subgroups indicate districts where the ban is likely to have had a larger effect on alcohol availability and consumption, we conclude that the ban affects crime through this channel rather than that of institutional changes.</p>
+<h2 id="the-long-run-impact-of-family-income-on-crime-and-risky-behavior.">The Long-Run Impact of Family Income on Crime and Risky Behavior.</h2>
+<p><strong><em>Abstract</em></strong>: Household income is a key variable in predicting participation in criminal and risk-taking behaviors. How does an income increase affect these behavioral outcomes? I study this question within the context of the Earned Income Tax credit - an anti-poverty tax credit program in the US that resulted in a substantial transfer of income to low- and moderate-income working families. I use tax credit variations arising out of federal and state EITC policies to study the impact of total EITC exposure during childhood on adult outcomes. Using a reduced form instrumental variable strategy, I estimate that a $1000 increase in EITC exposure between the ages of 0 and 18 leads to a 5.58 percent decrease in the probability of engaging in criminal behaviors during adulthood. I also find that it significantly reduces the probability of participating in risky behaviors including binge drinking and heavy smoking. I investigate the role of education and non-cognitive skills as potential mediators.</p>
+<h2 id="gender-differences-in-tertiary-healthcare.">Gender differences in tertiary healthcare.</h2>
+<p>With <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a> and <a href="https://tci.cornell.edu/people/natasha-jha/" target="_blank">Natasha Jha</a></p>
+<p><strong><em>Abstract</em></strong>: We examine gender differences in access to and service within a publicly financed tertiary healthcare program in Andhra Pradesh India. We use claim-level administrative data from the program to estimate gender differences in access and services. We classify the distance the patient travels as access variables and the time for claim authorization, treatment, and discharge, as well as the amount approved and paid as service variables. We use a regression framework to control for the influence of other patient characteristics, the type of procedure, hospital, and quarter of treatment in making gender comparisons.</p>
 <h1 id="policy-writing">Policy Writing</h1>
-<h2 id="social-health-insurance-schemes"><a
-href="https://global.oup.com/academic/product/india-public-finance-and-policy-report-9780190121150?cc=us&amp;lang=en&amp;">Social
-health insurance schemes</a></h2>
+<h2 id="social-health-insurance-schemes"><a href="https://global.oup.com/academic/product/india-public-finance-and-policy-report-9780190121150?cc=us&amp;lang=en&amp;">Social health insurance schemes</a></h2>
 <ul>
-<li><strong><em>India Public Finance and Policy Report</em></strong>,
-Oxford University Press, 2020, with Arjun Bedi, Arpita Chakraborty,
-Sisir Debnath, Anagaw Derseh Mebratie, Pradeep Panda, E. van de Poel,
-Wameq Raza, Frans Rutten, Zemzem Shigute, Robert Sparrow, Revathy
-Suryanarayana and Getnet Alemu Zewdu. Edited by J. Jalan, S. Marjit and
-S. Santra.</li>
+<li><strong><em>India Public Finance and Policy Report</em></strong>, Oxford University Press, 2020, with Arjun Bedi, Arpita Chakraborty, Sisir Debnath, Anagaw Derseh Mebratie, Pradeep Panda, E. van de Poel, Wameq Raza, Frans Rutten, Zemzem Shigute, Robert Sparrow, Revathy Suryanarayana and Getnet Alemu Zewdu. Edited by J. Jalan, S. Marjit and S. Santra.</li>
 </ul>
-<h2
-id="designing-indias-national-healthcare-protection-challenges-and-opportunities"><a
-href="https://www.ideasforindia.in/topics/human-development/designing-india-s-national-healthcare-protection-challenges-and-opportunities.html">Designing
-India’s national healthcare protection: Challenges and
-opportunities</a></h2>
+<h2 id="designing-indias-national-healthcare-protection-challenges-and-opportunities"><a href="https://www.ideasforindia.in/topics/human-development/designing-india-s-national-healthcare-protection-challenges-and-opportunities.html">Designing India’s national healthcare protection: Challenges and opportunities</a></h2>
 <ul>
-<li><strong><em>Ideas for India</em></strong>, August 27, 2018, with <a
-href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0"
-target="_blank">Tarun Jain</a>, <a
-href="https://hss.iitd.ac.in/faculty/sisir-debnath"
-target="_blank">Sisir Debnath</a> and Dibya Mishra.</li>
+<li><strong><em>Ideas for India</em></strong>, August 27, 2018, with <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a>, <a href="https://hss.iitd.ac.in/faculty/sisir-debnath" target="_blank">Sisir Debnath</a> and Dibya Mishra.</li>
 </ul>
-<h2
-id="common-tongue-how-mother-tongue-instruction-influences-education"><a
-href="https://www.ideasforindia.in/topics/macroeconomics/common-tongue-how-mother-tongue-instruction-influences-education.html">Common
-tongue? How mother tongue instruction influences education</a></h2>
+<h2 id="common-tongue-how-mother-tongue-instruction-influences-education"><a href="https://www.ideasforindia.in/topics/macroeconomics/common-tongue-how-mother-tongue-instruction-influences-education.html">Common tongue? How mother tongue instruction influences education</a></h2>
 <ul>
-<li><strong><em>Ideas for India</em></strong>, February 27, 2017, with
-<a
-href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0"
-target="_blank">Tarun Jain</a>.</li>
+<li><strong><em>Ideas for India</em></strong>, February 27, 2017, with <a href="https://sites.google.com/virginia.edu/tarunjain/home?authuser=0" target="_blank">Tarun Jain</a>.</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
