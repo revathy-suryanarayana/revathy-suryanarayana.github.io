@@ -11,7 +11,7 @@ navbar:
    # - text: "Research"
     #  href: research.html
     - text: "CV"
-      href: files/revathycv_april2023.pdf
+      href: files/Revathy-Surya-CV.pdf
       
   right:
     - icon: fa-envelope fa-lg
