@@ -1,0 +1,13 @@
+---
+title: "Teaching Experience"
+site: distill::distill_website
+
+---
+
+### Teaching Assistant, Behavioral Economics and Public Policy, Cornell University - 2023
+
+### Teaching Assistant, Race and American Labor Market in Historical Perspective, Cornell University - 2020, 2021
+
+### Teaching Assistant - Managerial Economics, Indian School of Business - 2016, 2017
+
+### Teaching Assistant - Information Economics, Indian School of Business - 2018
