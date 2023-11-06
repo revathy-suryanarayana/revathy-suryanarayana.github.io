@@ -3,10 +3,20 @@ title: "Revathy Suryanarayana"
 site: distill::distill_website
 ---
 
-<center>
-<img src="images/revathy_headshot.jpg" style="width:30%;" >
-</center>
-<p>&nbsp;</p>  
 
 
-I am a sixth-year PhD candidate in the [Jeb E. Brooks School of Public Policy](https://publicpolicy.cornell.edu/){target="_blank"} at [Cornell University](https://www.cornell.edu/){target="_blank"}. My areas of research include health economics, health policy, labor economics, and the economics of crime. I am on the 2023-24 job market. 
+
+
+:::float-image
+
+```{r out.width='30%', out.extra='style="float:right; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/revathy_headshot.jpg")
+```
+
+## About Me
+
+##### I am a sixth-year PhD candidate in the [Jeb E. Brooks School of Public Policy](https://publicpolicy.cornell.edu/){target="_blank"} at [Cornell University](https://www.cornell.edu/){target="_blank"}. My areas of research include health economics, health policy, labor economics, and the economics of crime. 
+
+##### I am on the 2023-24 job market. 
+:::
+
