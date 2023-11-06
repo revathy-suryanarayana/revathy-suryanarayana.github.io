@@ -56,6 +56,13 @@ h4{
   font-size: 18pt;
 }
 
+d-article {
+grid-template-columns: [screen-start] 1fr [text-start kicker-end] 2% 2% 2% 2% 2% 2% 2% 2% [text-end gutter-start] 2% [middle-end] 2% [page-end gutter-end] 1fr [screen-end];
+grid-column-gap: 10%;
+}
+
+
+
 /*-- ARTICLE APPENDIX --*/
 d-appendix {
   --heading-size:    15px;

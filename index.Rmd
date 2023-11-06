@@ -4,7 +4,7 @@ site: distill::distill_website
 ---
 
 <center>
-<img src="images/revathy_headshot.jpg" style="width:40%;" >
+<img src="images/revathy_headshot.jpg" style="width:30%;" >
 </center>
 <p>&nbsp;</p>  
 
