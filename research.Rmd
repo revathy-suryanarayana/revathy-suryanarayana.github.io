@@ -17,7 +17,7 @@ With [Kalyani Chaudhuri](https://economics.ucdavis.edu/people/kalyanic){target="
 
 ##### **Opioid Supply, Trade Liberalization Shocks, and Infant Health Outcomes** 
 
-*Job Market Paper*
+*Job Market Paper* [[Click for Latest Draft](files/Suryanarayana-JMP.pdf){target="_blank"}]
 
 <details><summary><b>Abstract</b></summary> This paper examines the interaction of factors affecting opioid supply and opioid demand and their impact on neonatal health outcomes. I exploit variation in the triplicate status of states in 1996 and a county-level trade liberalization shock as natural variations for opioid supply and demand, respectively. The results indicate that the counties that experienced high opioid demand and supply had an increase in the incidence of preterm births and births with low birth weight. Specifically, relative to the baseline mean, the preterm birth rate increased by 3.8\%, and the rate of births with low birth weight increased by 5\% in those counties experiencing high opioid supply and increased economic distress. I also find that trade liberalization shocks independently led to a significant decrease in the incidence of preterm births and births with low birth weight suggesting that there might be positive maternal selection into fertility. In contrast, the triplicate status of states, by itself, does not significantly explain infant health outcomes. My findings indicate that the triplicate laws had a protective effect on infant health in counties experiencing higher economic distress and therefore, higher opioid demand. </details>
 
