@@ -15,7 +15,7 @@ navbar:
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
-      href: files/Revathy-Surya-CV.pdf
+      href: files/Suryanarayana-CVwebsite.pdf
       
   right:
     - icon: fa-envelope fa-lg
