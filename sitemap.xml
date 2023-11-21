@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://revathy-suryanarayana.github.io/</loc>
-    <lastmod>2023-09-21T21:54:59-04:00</lastmod>
+    <lastmod>2023-11-05T22:25:14-05:00</lastmod>
   </url>
   <url>
     <loc>https://revathy-suryanarayana.github.io/policy.html</loc>
-    <lastmod>2023-11-03T15:22:16-04:00</lastmod>
+    <lastmod>2023-11-05T21:54:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://revathy-suryanarayana.github.io/research.html</loc>
+<<<<<<< HEAD
     <lastmod>2023-11-21T18:34:53-05:00</lastmod>
+=======
+    <lastmod>2023-11-05T21:54:32-05:00</lastmod>
+>>>>>>> afa298ce28797719620fec6820085c2ca9a9b80b
   </url>
   <url>
     <loc>https://revathy-suryanarayana.github.io/teaching.html</loc>
-    <lastmod>2023-11-03T16:05:02-04:00</lastmod>
+    <lastmod>2023-11-05T21:54:32-05:00</lastmod>
   </url>
 </urlset>
