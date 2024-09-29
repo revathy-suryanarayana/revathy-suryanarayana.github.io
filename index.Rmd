@@ -15,8 +15,7 @@ knitr::include_graphics("images/revathy_headshot.jpg")
 
 ## About Me
 
-##### I am a sixth-year PhD candidate in the [Jeb E. Brooks School of Public Policy](https://publicpolicy.cornell.edu/){target="_blank"} at [Cornell University](https://www.cornell.edu/){target="_blank"}. My areas of research include health economics, health policy, labor economics, and the economics of crime. 
+##### I am an Assistant Professor in the [Peter O'Donnell Jr. School of Public Health](https://osph.utsouthwestern.edu/){target="_blank"} at [The University of Texas Southwestern Medical Center](https://www.utsouthwestern.edu){target="_blank"}.  My areas of research include health economics, health policy, labor economics, and the economics of crime. 
 
-##### I am on the 2023-24 job market. 
 :::
 
