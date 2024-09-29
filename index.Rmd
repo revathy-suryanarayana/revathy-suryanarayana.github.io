@@ -13,9 +13,8 @@ site: distill::distill_website
 knitr::include_graphics("images/revathy_headshot.jpg")
 ```
 
-## About Me
 
-##### I am an Assistant Professor in the [Peter O'Donnell Jr. School of Public Health](https://osph.utsouthwestern.edu/){target="_blank"} at [The University of Texas Southwestern Medical Center](https://www.utsouthwestern.edu){target="_blank"}.  My areas of research include health economics, health policy, labor economics, and the economics of crime. 
+##### I am an Assistant Professor in the [Peter O'Donnell Jr. School of Public Health](https://osph.utsouthwestern.edu/){target="_blank"} at [The University of Texas Southwestern Medical Center](https://www.utsouthwestern.edu){target="_blank"}. My areas of research include health economics, health policy, labor economics, and the economics of crime. 
 
 :::
 

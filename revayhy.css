@@ -21,8 +21,8 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #275091;
-  --header-color:    #275091;                    /* edited */
+  --title-color:     #00599a;
+  --header-color:    #00599a;                    /* edited */
   --body-color:      #404040;                    /* edited */
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
