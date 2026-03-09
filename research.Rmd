@@ -5,7 +5,7 @@ title: "Research"
 ## Peer-Reviewed Publications
 
 <div class="pub-entry">
-Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2026). The Impact of Tobacco Regulations on Smoking and Vaping. *Southern Economic Journal*.
+Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2026). The Impact of Tobacco Regulations on Smoking and Vaping. Forthcoming at *Southern Economic Journal*.
 </div>
 
 <div class="pub-entry">
@@ -32,30 +32,3 @@ Baggio, M., Chong, A., & Suryanarayana, R. (2024). High times and troubled relat
 Chaudhuri, K., Jha, N., Nilayamgode, M., & Suryanarayana, R. (2024). Alcohol Ban and Crime: The ABCs of the Bihar Prohibition. *Economic Development and Cultural Change*, 72(4).
 </div>
 
-## Working Papers
-
-<div class="pub-entry">
-Long-run Impact of Federal Income Support on Criminal Involvement and Risky Health Behavior of Adults. <span class="status">R&R at Health Economics</span>
-</div>
-
-<div class="pub-entry">
-Opioid Supply, Trade Liberalization Shocks, and Infant Health.
-</div>
-
-## Policy Writing
-
-<div class="pub-entry">
-Fear or knowledge: The impact of graphic cigarette warnings on tobacco product choices, with Donald Kenkel, Alan Mathios, Grace Phillips, Hua Wang, and Sen Zeng. VoxEu Column, September 2023.
-</div>
-
-<div class="pub-entry">
-The Aarogyasri Health Insurance Program, with Tarun Jain and Sisir Debnath. India Public Finance and Policy Report: Health Matters. Oxford University Press, 2019.
-</div>
-
-<div class="pub-entry">
-Designing India's national healthcare protection: Challenges and opportunities, with Sisir Debnath, Tarun Jain, and Dibya Mishra. Ideas for India, August 27, 2018.
-</div>
-
-<div class="pub-entry">
-Common Tongue? How Mother Tongue Instruction Influences Education, with Tarun Jain. Ideas for India, February 27, 2017.
-</div>

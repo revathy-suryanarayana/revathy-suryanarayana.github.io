@@ -1,5 +1,5 @@
 name: "Revathy Surya Narayana"
-output_dir: "docs"
+output_dir: "."
 navbar:
   title: "Revathy Surya Narayana"
   left:

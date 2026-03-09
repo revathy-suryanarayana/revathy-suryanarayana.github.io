@@ -11,14 +11,13 @@ title: " "
 # Revathy Surya Narayana
 
 <div class="title">
-Assistant Professor | O'Donnell School of Public Health | UT Southwestern Medical Center<br>
-Research Associate | CHERISH (Center for Health Economics of Treatment Interventions for Substance Use Disorder, HCV, and HIV)
+Assistant Professor | O'Donnell School of Public Health | UT Southwestern Medical Center
 </div>
 
 <div class="bio">
 I am an Assistant Professor in Health Economics, Systems, and Policy at the O'Donnell School of Public Health, UT Southwestern Medical Center. I received my Ph.D. in Public Policy from the Jeb E. Brooks School of Public Policy at Cornell University.
 
-My research focuses on health economics, labor economics, and public policy analysis. My published work appears in journals including the *Southern Economic Journal*, *Economics Letters*, *Health Economics*, *Applied Economics*, *Economics & Human Biology*, and *Economic Development and Cultural Change*. My current projects examine topics ranging from tobacco regulation and substance use policy to the effects of income support programs on health and criminal behavior.
+My research focuses on health economics, labor economics, and public policy analysis.
 </div>
 
 <div class="contact-info">
