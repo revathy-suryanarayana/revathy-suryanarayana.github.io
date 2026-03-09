@@ -1,0 +1,61 @@
+---
+title: "Research"
+---
+
+## Peer-Reviewed Publications
+
+<div class="pub-entry">
+Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2026). The Impact of Tobacco Regulations on Smoking and Vaping. *Southern Economic Journal*.
+</div>
+
+<div class="pub-entry">
+Baggio, M., Suryanarayana, R., & Uchida, S. (2026). Heat and Hate: How Temperature Triggers Discriminatory Violence. *Economics Letters*, 112861.
+</div>
+
+<div class="pub-entry">
+Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2025). Consumer Preferences for Cigarettes and Heated Tobacco Products in Japan: Evidence from a Discrete Choice Experiment. *Applied Economics*, 1-16.
+</div>
+
+<div class="pub-entry">
+Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2025). Understanding the Demand-Side of an Illegal Market: A Case Study of the Prohibition of Menthol Cigarettes. *Health Economics* 34(5), 956-971.
+</div>
+
+<div class="pub-entry">
+Kenkel, D., Mathios, A., Phillips, G., Suryanarayana, R., Wang, H., & Zeng, S. (2024). Just what the doctor ordered? The benefits and costs of e-cigarette regulation in Australia. *Annals of Public and Cooperative Economics*.
+</div>
+
+<div class="pub-entry">
+Baggio, M., Chong, A., & Suryanarayana, R. (2024). High times and troubled relationships: Recreational Marijuana Laws and Intimate Partner Violence. *Economics & Human Biology*, 54, 101399.
+</div>
+
+<div class="pub-entry">
+Chaudhuri, K., Jha, N., Nilayamgode, M., & Suryanarayana, R. (2024). Alcohol Ban and Crime: The ABCs of the Bihar Prohibition. *Economic Development and Cultural Change*, 72(4).
+</div>
+
+## Working Papers
+
+<div class="pub-entry">
+Long-run Impact of Federal Income Support on Criminal Involvement and Risky Health Behavior of Adults. <span class="status">R&R at Health Economics</span>
+</div>
+
+<div class="pub-entry">
+Opioid Supply, Trade Liberalization Shocks, and Infant Health.
+</div>
+
+## Policy Writing
+
+<div class="pub-entry">
+Fear or knowledge: The impact of graphic cigarette warnings on tobacco product choices, with Donald Kenkel, Alan Mathios, Grace Phillips, Hua Wang, and Sen Zeng. VoxEu Column, September 2023.
+</div>
+
+<div class="pub-entry">
+The Aarogyasri Health Insurance Program, with Tarun Jain and Sisir Debnath. India Public Finance and Policy Report: Health Matters. Oxford University Press, 2019.
+</div>
+
+<div class="pub-entry">
+Designing India's national healthcare protection: Challenges and opportunities, with Sisir Debnath, Tarun Jain, and Dibya Mishra. Ideas for India, August 27, 2018.
+</div>
+
+<div class="pub-entry">
+Common Tongue? How Mother Tongue Instruction Influences Education, with Tarun Jain. Ideas for India, February 27, 2017.
+</div>

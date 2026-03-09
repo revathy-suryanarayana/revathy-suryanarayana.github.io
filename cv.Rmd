@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+You can download my full CV below.
+
+<a href="files/Suryanarayana-CV.pdf" class="cv-download" download>Download CV (PDF)</a>
